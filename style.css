@@ -1,0 +1,109 @@
+* {
+
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #28223f;
+}
+.repos-container {
+  width: 90%;
+  margin: auto;
+}
+.repos-container .get-repos {
+  padding: 20px;
+  display: flex;
+  background-color: #231e39;
+}
+.repos-container .get-repos input {
+  width: 50%;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+  height: 54px;
+  outline: #03bfcb;
+  margin: 0 5px;
+}
+.repos-container .get-repos .get-button,
+.get-issue {
+  width: 140px;
+  margin-left:  10px;
+  height: 54px;
+  background-color: #03bfcb;
+  color: #fff;
+  line-height: 54px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.repos-container .show-data {
+  padding: 20px;
+  background-color: #231e39;
+  color: #fff;
+}
+
+
+li {
+  list-style: none;
+}
+
+
+
+.card-container {
+  margin: 50px auto;
+  background: #231e39;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+
+}
+.image-container {
+  width: 20%;
+  margin: auto;
+}
+
+.round {
+  width: 100%;
+  border: 1px solid #03bfcb;
+  border-radius: 50%;
+  padding: 7px;
+  object-fit: cover;
+
+}
+.name-container {
+  margin: 10px auto;
+
+}
+.name-container h2 {
+  text-align: center;
+
+}
+.repo-link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.8s;
+  margin: auto;
+  text-align: center;
+}
+.repo-link:hover {
+  color: #03bfcb;
+}
+.btns {
+  margin: 10px auto;
+  width: 100%;
+}
+.lang {
+  padding: 14px;
+  margin: auto;
+  width: 18%;
+}
+.name-color {
+  color: #03bfcb;
+}
